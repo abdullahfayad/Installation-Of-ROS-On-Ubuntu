@@ -1,0 +1,15 @@
+
+To install ROS you should make sure you have Ubuntu 20.04.
+
+After that you should open the terminal then past the following line inside it:
+
+wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros_install_noetic.sh && chmod +x ./ros_install_noetic.sh && ./ros_install_noetic.sh
+
+Through the progress of installation the script ask you to choose the version that you want to install it, just type the number corresponding to the version wanted.
+
+Now, ROS should be installed.
+
+If you want to Uninstall ROS you can type the following line in the terminal:
+
+wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros_uninstall_noetic.sh && chmod +x ./ros_uninstall_noetic.sh && ./ros_uninstall_noetic.sh
+
